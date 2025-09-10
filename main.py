@@ -415,7 +415,7 @@ def main():
                 if UAV == (NumberOfUAVs - 1):
                     Rate_during_t = copy.deepcopy(SumRate)
                     datarate_seq[t] = Rate_during_t
-                    WorstuserRate_seq[t] = WorstuserRate
+                    
 
         Through_put = np.sum(datarate_seq)
         Through_put_seq[episode] = Through_put
